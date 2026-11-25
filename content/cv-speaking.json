@@ -1,0 +1,426 @@
+[
+ {
+  "kind": "course",
+  "date": "2023-05",
+  "title": "Hip and Knee Interactive Educational Program Fellows and Young Surgeons Course",
+  "role": "Alumni Board Faculty",
+  "location": "San Diego, CA"
+ },
+ {
+  "kind": "course",
+  "date": "2023-05",
+  "title": "NYOH Alumni Association 77th Biennial Meeting",
+  "role": "Faculty"
+ },
+ {
+  "kind": "course",
+  "date": "2023-11",
+  "title": "AAHKS Symposium — Cutting to the Chase: Best Practices in Wound Closure and Arthroplasty",
+  "role": "Faculty",
+  "location": "Dallas, TX"
+ },
+ {
+  "kind": "course",
+  "date": "2024-04",
+  "title": "JRGOS and Zimmer Course — When & How: Hip Traumaplasty for Orthopaedic Residents",
+  "role": "Faculty",
+  "location": "Cleveland, OH"
+ },
+ {
+  "kind": "course",
+  "date": "2024-05",
+  "title": "Hip and Knee Interactive Educational Program Fellows and Young Surgeons Course",
+  "role": "Faculty Board Member",
+  "location": "Tampa, FL"
+ },
+ {
+  "kind": "course",
+  "date": "2024-10",
+  "title": "International Orthopaedic Education Network, Technology, Outpatient, and Economics of Hip and Knee Arthroplasty",
+  "role": "Faculty",
+  "location": "Indianapolis, IN"
+ },
+ {
+  "kind": "course",
+  "date": "2024-10",
+  "title": "Eastern Orthopedic Association, Early Career Panel",
+  "role": "Faculty",
+  "location": "West Palm Beach, FL"
+ },
+ {
+  "kind": "course",
+  "date": "2024-11",
+  "title": "Zimmer Biomet Primary to Revision Knee Arthroplasty BioSkills",
+  "role": "Course Faculty",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "course",
+  "date": "2024-11",
+  "title": "Foundation of Physician Advancement Building a Successful Practice, Northeast",
+  "role": "Course Faculty",
+  "location": "Philadelphia, PA"
+ },
+ {
+  "kind": "course",
+  "date": "2024-11",
+  "title": "Foundation of Physician Advancement Zimmer Biomet BioSkills Lab",
+  "role": "Faculty",
+  "location": "Philadelphia, PA"
+ },
+ {
+  "kind": "course",
+  "date": "2024-12",
+  "title": "Hospital for Special Surgery 36th Annual Knee and Hip Holiday Course",
+  "role": "Course Faculty",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "course",
+  "date": "2025-01",
+  "title": "Zimmer Biomet Primary to Revision Knee Arthroplasty BioSkills",
+  "role": "Course Faculty",
+  "location": "Philadelphia, PA"
+ },
+ {
+  "kind": "course",
+  "date": "2025-02",
+  "title": "Foundation of Physician Advancement Building a Successful Practice, National",
+  "role": "Course Faculty",
+  "location": "Charlotte, NC"
+ },
+ {
+  "kind": "course",
+  "date": "2025-04",
+  "title": "2025 Northeast Arthroplasty Conference, Brown University",
+  "role": "Faculty",
+  "location": "Providence, RI"
+ },
+ {
+  "kind": "course",
+  "date": "2025-05",
+  "title": "NYOH Alumni Association 78th Biennial Meeting",
+  "role": "Faculty",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "course",
+  "date": "2025-05",
+  "title": "3rd International Consensus Meeting (ICM) for Prosthetic Joint Infection",
+  "role": "Delegate",
+  "location": "Istanbul, Turkiye"
+ },
+ {
+  "kind": "course",
+  "date": "2025-05",
+  "title": "Hip and Knee Interactive Educational Program Fellows and Young Surgeons Course",
+  "role": "Faculty Board Member",
+  "location": "Philadelphia, PA"
+ },
+ {
+  "kind": "course",
+  "date": "2025-10",
+  "title": "Eastern Orthopaedic Association Symposium — In the Arthroplasty Hot Seat: Case Discussion and Controversies",
+  "role": "Faculty",
+  "location": "Naples, FL"
+ },
+ {
+  "kind": "course",
+  "date": "2025-11",
+  "title": "AAHKS 2025 Annual Meeting Resident Arthroplasty Lab",
+  "role": "Faculty",
+  "location": "Dallas, TX"
+ },
+ {
+  "kind": "course",
+  "date": "2025-12",
+  "title": "Hospital for Special Surgery 37th Annual Knee and Hip Holiday Course",
+  "role": "Course Faculty",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "course",
+  "date": "2026-01",
+  "title": "Zimmer Biomet Early Career Primary and Revision Knee Lab Course",
+  "role": "Lab Chair/Faculty",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "course",
+  "date": "2026-04",
+  "title": "Zimmer Biomet Primary to Revision Hip BioSkills Course",
+  "role": "Course Co-Chair",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "course",
+  "date": "2026-05",
+  "title": "AAHKS 2026 Spring Meeting",
+  "role": "Faculty",
+  "location": "Chicago, IL"
+ },
+ {
+  "kind": "course",
+  "date": "2026-05",
+  "title": "Hip and Knee Interactive Educational Program Fellows and Young Surgeons Course",
+  "role": "Faculty Board Member",
+  "location": "Tampa, FL"
+ },
+ {
+  "kind": "course",
+  "date": "2026-10",
+  "title": "Eastern Orthopedic Association Symposium",
+  "role": "Faculty",
+  "location": "Miami, FL"
+ },
+ {
+  "kind": "course",
+  "date": "2026-11",
+  "title": "AAHKS 2026 Annual Meeting Resident Arthroplasty Lab",
+  "role": "Faculty",
+  "location": "Dallas, TX"
+ },
+ {
+  "kind": "course",
+  "date": "2026-12",
+  "title": "Hospital for Special Surgery 38th Annual Knee and Hip Holiday Course",
+  "role": "Course Faculty",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2013-05",
+  "title": "Quality Improvement Series: Meeting PQRS Requirements for Hepatitis C",
+  "event": "Tufts Medical Center Gastroenterology Grand Rounds",
+  "role": "Speaker",
+  "location": "Boston, MA"
+ },
+ {
+  "kind": "lecture",
+  "date": "2018-10",
+  "title": "Locking Plate Technology: Past, Present, and Future",
+  "event": "CUIMC Department of Orthopedic Surgery Grand Rounds",
+  "role": "Speaker",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2018-09",
+  "title": "What is it Like to be an Orthopedic Surgery Resident in the United States? An Insider's Perspective",
+  "event": "International Healthcare Leadership/JuniperMD/American Chamber of Commerce in China Annual Meeting",
+  "role": "Speaker",
+  "location": "Chicago, IL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2018-12",
+  "title": "Primary Repair of the Ulnar Collateral Ligament",
+  "event": "Techniques Conference: Shoulder and Sports Medicine Service, Columbia University Irving Medical Center, Department of Orthopedic Surgery",
+  "role": "Speaker",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2019-05",
+  "title": "Hip Fracture Perioperative Optimization and Management: The Surgeon's Perspective",
+  "event": "Department of Hospitalist Medicine Physician Assistants Grand Rounds, Columbia University Irving Medical Center",
+  "role": "Speaker",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-02",
+  "title": "The impact of social determinants of health on total joint arthroplasty patients",
+  "event": "Zimmer Biomet Health Equity Community Centered Care (C3) Advisory Board",
+  "role": "Speaker",
+  "location": "Warsaw, IN"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-04",
+  "title": "JRGOS, AAHKS, & AALOS Webinar: Starting your arthroplasty career 101: Best practices for fellowship and your first few years",
+  "role": "Panelist"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-05",
+  "title": "How to Be a Good Junior Partner",
+  "event": "Hip and Knee Interactive Educational Program for Fellows and Young Surgeons",
+  "role": "Speaker",
+  "location": "Tampa, FL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-05",
+  "title": "Hip and Knee Arthroplasty Practice: Billing Like It's Your Job",
+  "event": "Hip and Knee Interactive Educational Program for Fellows and Young Surgeons",
+  "role": "Speaker",
+  "location": "Tampa, FL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-05",
+  "title": "ABOS Part II Mock Exam",
+  "event": "Hip and Knee Interactive Educational Program for Fellows and Young Surgeons",
+  "role": "Speaker",
+  "location": "Tampa, FL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-10",
+  "title": "Robotic-Assisted TKA: Making Sense of Current Options in the US",
+  "event": "International Orthopedic Education Network: Technology, Outpatient and Economics of Hip and Knee Arthroplasty Course",
+  "role": "Speaker",
+  "location": "Indianapolis, IN"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-10",
+  "title": "Resurface Them All: Efficiently and Cost-Effectively Resurfacing Patellae",
+  "event": "International Orthopedic Education Network: Technology, Outpatient and Economics of Hip and Knee Arthroplasty Course",
+  "role": "Speaker",
+  "location": "Indianapolis, IN"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-10",
+  "title": "Pneumatic Instrumentation for Bone Preparation and Implant Retention",
+  "event": "International Orthopedic Education Network: Technology, Outpatient and Economics of Hip and Knee Arthroplasty Course",
+  "role": "Speaker",
+  "location": "Indianapolis, IN"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-10",
+  "title": "Early Career Panel: What You Need to Know About the First Three Years of Practice",
+  "event": "Eastern Orthopaedic Association",
+  "role": "Panelist",
+  "location": "Palm Beach, FL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-10",
+  "title": "EOA Resident Course: Resident/Fellow Primer for the Transition to Practice",
+  "event": "Eastern Orthopaedic Association",
+  "role": "Panelist",
+  "location": "Palm Beach, FL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-10",
+  "title": "Pain Management in Adult Reconstruction and Trauma",
+  "event": "Eastern Orthopaedic Association",
+  "role": "Moderator",
+  "location": "Palm Beach, FL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-12",
+  "title": "Partial Knee Replacement",
+  "event": "Hospital for Special Surgery 36th Annual Knee and Hip Course",
+  "role": "Panelist",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-12",
+  "title": "Complex Primary Total Knee Replacement",
+  "event": "Hospital for Special Surgery 36th Annual Knee and Hip Course",
+  "role": "Panelist",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2024-12",
+  "title": "Periprosthetic Hip Fracture Management",
+  "event": "Hospital for Special Surgery 36th Annual Knee and Hip Course",
+  "role": "Speaker",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2025-04",
+  "title": "Learning to Bill for the Work You Put In",
+  "event": "2025 Northeast Arthroplasty Conference",
+  "role": "Speaker",
+  "location": "Providence, RI"
+ },
+ {
+  "kind": "lecture",
+  "date": "2025-05",
+  "title": "AAHKS YAG ABOS Part II Case Submission Webinar",
+  "role": "Panelist",
+  "location": "Virtual"
+ },
+ {
+  "kind": "lecture",
+  "date": "2025-11",
+  "title": "On the Frontlines of Change: Leadership, Legacy and the Posse Impact",
+  "role": "Panelist",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2025-12",
+  "title": "High-Stakes Breaks: Navigating Periprosthetic Femur Fractures after THA- A Case-Based Playbook",
+  "event": "New England Baptist Hospital Grand Rounds",
+  "role": "Speaker",
+  "location": "Boston, MA (Virtual)"
+ },
+ {
+  "kind": "lecture",
+  "date": "2025-12",
+  "title": "Revision THA: Challenging the Experts",
+  "event": "Hospital for Special Surgery 37th Annual Knee and Hip Course",
+  "role": "Panelist",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2025-12",
+  "title": "Prosthetic Joint Infection, A Case-Based Panel: Prevention, Diagnosis, Managing the Draining Wound, DAIR, One and Two Stage Revisions",
+  "event": "Hospital for Special Surgery 37th Annual Knee and Hip Course",
+  "role": "Panelist",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2025-12",
+  "title": "Periprosthetic Hip Fracture Management",
+  "event": "Hospital for Special Surgery 37th Annual Knee and Hip Course",
+  "role": "Speaker",
+  "location": "New York, NY"
+ },
+ {
+  "kind": "lecture",
+  "date": "2026-05",
+  "title": "Surgical Billing and Coding 201: ICD-10s, CPTs, and Modifiers You Will Actually Use",
+  "event": "AAHKS Spring Meeting Symposium",
+  "role": "Speaker",
+  "location": "Chicago, IL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2026-05",
+  "title": "Ask the Experts | Revision THA: Both Component Revision: Efficient and Safe Removal Strategies",
+  "event": "AAHKS Spring Meeting Symposium",
+  "role": "Speaker",
+  "location": "Chicago, IL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2026-05",
+  "title": "Ask the Experts | Challenging Primary THA Cases: Conversion THA for Post-Traumatic Arthritis with Retained Femoral Nail",
+  "event": "AAHKS Spring Meeting Symposium",
+  "role": "Speaker",
+  "location": "Chicago, IL"
+ },
+ {
+  "kind": "lecture",
+  "date": "2026-05",
+  "title": "Hip and Knee Arthroplasty Practice: Billing Like It's Your Job",
+  "event": "Hip and Knee Interactive Educational Program for Fellows and Young Surgeons",
+  "role": "Speaker",
+  "location": "Tampa, FL"
+ }
+]
