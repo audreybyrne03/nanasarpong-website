@@ -36,7 +36,7 @@ Author lists come from ORCID, else Crossref; Dr. Sarpong’s name is bolded. To 
 
 ## First-time setup (Audrey)
 
-1. **GitHub** — push this folder to a new private repo (e.g. `nanosarpong-website`).
+1. **GitHub** — push this folder to a new private repo (e.g. `nanasarpong-website`).
 2. **Sanity** — create a new project for Dr. Sarpong at sanity.io/manage (free plan is fine). Invite him (and yourself) as members. Under **API → CORS origins** add `http://localhost:3000`, the Vercel URL and the final domain, each with *Allow credentials*.
 3. **Seed content** — copy `.env.example` to `.env.local`, fill in `NEXT_PUBLIC_SANITY_PROJECT_ID` and an Editor token in `SANITY_API_WRITE_TOKEN`, then:
    ```bash
