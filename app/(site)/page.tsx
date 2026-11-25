@@ -2,10 +2,11 @@ import Link from "next/link";
 
 import { PublicationCitation } from "@/components/PublicationCitation";
 import { Section } from "@/components/PageHeader";
+import { PhysicianJsonLd } from "@/components/StructuredData";
 import { SanityImage } from "@/components/SanityImage";
 import { SmartLink } from "@/components/SmartLink";
 import { bookingLink } from "@/lib/booking";
-import { clean, isActiveWindow, PROCEDURE_CATEGORY_LABELS } from "@/lib/site";
+import { clean, isActiveWindow, PROCEDURE_CATEGORY_LABELS, telHref } from "@/lib/site";
 import {
   getIndustryRoles,
   getInnovationProjects,
@@ -64,6 +65,7 @@ export default async function HomePage() {
 
   return (
     <>
+      <PhysicianJsonLd settings={settings} profile={profile} locations={locations} />
       {/* Hero ---------------------------------------------------------- */}
       <section className="relative overflow-hidden bg-ink text-paper">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 pb-16 pt-10 md:px-10 md:pb-20 md:pt-16 lg:grid-cols-12 lg:gap-10">
@@ -284,8 +286,11 @@ export default async function HomePage() {
               {closing[1] && <span className="italic text-copper-light"> {closing[1]}</span>}
             </h2>
             {settings.appointments?.note && <p className="mt-6 max-w-[50ch] text-paper-text/80">{settings.appointments.note}</p>}
-            <p className="mt-8">
+            <p className="mt-8 flex flex-wrap gap-3">
               <SmartLink href={booking.href} className="btn btn-copper">{booking.label}</SmartLink>
+              {settings.appointments?.phone && (
+                <a href={telHref(settings.appointments.phone)} className="btn btn-ghost-light">Call {settings.appointments.phone}</a>
+              )}
             </p>
           </div>
           <ul className="space-y-8 md:col-span-5">

@@ -23,10 +23,15 @@ export default async function AppointmentsPage() {
       <PageHeader eyebrow="Appointments" title={page?.title || "Appointments"} intro={page?.intro}>
         <div className="mt-10 flex flex-wrap items-center gap-4">
           {appt.bookingUrl && (
-            <SmartLink href={appt.bookingUrl} className="btn btn-copper">{appt.bookingLabel || "Request an appointment"}</SmartLink>
+            <SmartLink href={appt.bookingUrl} className="btn btn-copper">{appt.bookingLabel || "Book an appointment"}</SmartLink>
           )}
           {appt.phone && (
             <a href={telHref(appt.phone)} className="btn btn-ghost-light">Call {appt.phone}</a>
+          )}
+          {appt.profileUrl && (
+            <SmartLink href={appt.profileUrl} className="text-[0.9375rem] text-paper-text/80 underline decoration-ink-line underline-offset-4 hover:text-paper hover:decoration-copper">
+              View HSS profile →
+            </SmartLink>
           )}
         </div>
         {!hasBooking && appt.comingSoonNote && (

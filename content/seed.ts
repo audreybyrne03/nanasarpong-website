@@ -34,7 +34,7 @@ export const seedSettings: SiteSettings = {
   announcement: {
     enabled: true,
     text: "Dr. Sarpong is joining Hospital for Special Surgery (HSS) on December 14, 2026.",
-    link: { label: "Appointment information", url: "/appointments" },
+    link: { label: "Book an appointment", url: "/appointments" },
     showUntil: "2027-03-31",
   },
   hero: {
@@ -43,7 +43,7 @@ export const seedSettings: SiteSettings = {
     emphasis: "around you.",
     intro:
       "Fellowship-trained in adult reconstruction, Dr. Sarpong combines robotic and mixed-reality technology with a surgeon-scientist’s attention to outcomes, helping patients return to the lives they want to live.",
-    primaryCta: { label: "Request an appointment", url: "/appointments" },
+    primaryCta: { label: "Book an appointment", url: "/appointments" },
     secondaryCta: { label: "Meet Dr. Sarpong", url: "/about" },
   },
   stats: [
@@ -71,9 +71,10 @@ export const seedSettings: SiteSettings = {
     },
   ],
   appointments: {
-    bookingUrl: "",
-    bookingLabel: "Request an appointment",
-    phone: "",
+    bookingUrl: "https://www.hss.edu/find-a-doctor/search?findadocflow=yes&id=21023&vt=11700000136&dept=101039007,101039006&multi=y&view=plain&drname=Dr.%20Sarpong&QueryString=Sarpong%20Nana&phone=212.774.7274",
+    bookingLabel: "Book an appointment",
+    phone: "212.774.7274",
+    profileUrl: "https://www.hss.edu/profiles/doctors/nana-sarpong",
     note: "Dr. Sarpong sees patients at Hospital for Special Surgery beginning December 14, 2026.",
     comingSoonNote:
       "Online scheduling details for Dr. Sarpong’s HSS practice will be posted here. In the meantime, HSS’s main line can direct you to his office.",
@@ -87,6 +88,7 @@ export const seedSettings: SiteSettings = {
     links: [{ label: "CMS Open Payments", url: "https://openpaymentsdata.cms.gov/" }],
   },
   socialLinks: [
+    { platform: "website", url: "https://www.hss.edu/profiles/doctors/nana-sarpong", label: "HSS profile" },
     { platform: "orcid", url: "https://orcid.org/0000-0002-4574-8966" },
     { platform: "pubmed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Sarpong+NO%5BAuthor%5D" },
   ],
@@ -283,8 +285,8 @@ export const seedLocations: Location[] = [
     name: "Hospital for Special Surgery",
     institution: "Main Campus, Upper East Side",
     address: "535 East 70th Street\nNew York, NY 10021",
-    phone: "",
-    bookingUrl: "",
+    phone: "212.774.7274",
+    bookingUrl: "https://www.hss.edu/find-a-doctor/search?findadocflow=yes&id=21023&vt=11700000136&dept=101039007,101039006&multi=y&view=plain&drname=Dr.%20Sarpong&QueryString=Sarpong%20Nana&phone=212.774.7274",
     mapUrl: "https://maps.google.com/?q=Hospital+for+Special+Surgery+535+East+70th+Street+New+York",
     note: "Beginning December 14, 2026.",
     startDate: "2026-12-01",

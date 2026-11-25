@@ -170,6 +170,7 @@ export const siteSettings = defineType({
         }),
         defineField({ name: "bookingLabel", title: "Booking button label", type: "string" }),
         defineField({ name: "phone", title: "Appointment phone", type: "string" }),
+        defineField({ name: "profileUrl", title: "HSS profile page", type: "url", description: "Linked from the Appointments and About pages and used for search-engine profile data." }),
         defineField({ name: "note", title: "Short note", type: "text", rows: 2 }),
         defineField({ name: "comingSoonNote", title: "Shown while no booking link or phone is set", type: "text", rows: 2 }),
         defineField({ name: "insuranceNote", title: "Insurance note", type: "text", rows: 2 }),

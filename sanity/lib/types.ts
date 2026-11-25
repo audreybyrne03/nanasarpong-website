@@ -83,6 +83,7 @@ export interface SiteSettings {
     bookingUrl?: string | null;
     bookingLabel?: string | null;
     phone?: string | null;
+    profileUrl?: string | null;
     note?: string | null;
     insuranceNote?: string | null;
     comingSoonNote?: string | null;

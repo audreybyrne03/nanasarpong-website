@@ -52,7 +52,7 @@ Until step 2 is done the site renders the starter content from `content/seed.ts`
 
 ## Before launch — content to confirm with Dr. Sarpong
 
-- HSS booking link and appointment phone (Site settings → Appointments). Until set, buttons go to `/appointments`, which shows a “details coming soon” note.
+- HSS booking link, appointment phone (212.774.7274, taken from the booking link) and HSS profile are set in Site settings → Appointments; confirm the phone number is the one he wants listed.
 - Public contact e-mails (none are published by default; his personal e-mail and mobile from the CV are intentionally left off).
 - Procedure page wording (general patient education, written from his CV/clinical profile; he should review).
 - Industry roles and disclosure wording; whether to add LinkedIn/Doximity/Instagram links; languages spoken.

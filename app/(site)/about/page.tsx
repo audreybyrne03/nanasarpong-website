@@ -2,6 +2,7 @@ import { PageHeader, Section } from "@/components/PageHeader";
 import { RichText } from "@/components/RichText";
 import { SanityImage } from "@/components/SanityImage";
 import { SmartLink } from "@/components/SmartLink";
+import { bookingLink } from "@/lib/booking";
 import { sectionMetadata } from "@/lib/pageMeta";
 import { getProfile, getSettings } from "@/sanity/lib/data";
 import type { TimelineItem } from "@/sanity/lib/types";
@@ -28,6 +29,7 @@ function Timeline({ items }: { items: TimelineItem[] }) {
 export default async function AboutPage() {
   const [profile, settings] = await Promise.all([getProfile(), getSettings()]);
   const page = settings.aboutPage;
+  const booking = bookingLink(settings);
   let n = 0;
   const pad = () => String(++n).padStart(2, "0");
 
@@ -58,11 +60,13 @@ export default async function AboutPage() {
               </div>
             )}
           </dl>
-          {profile.cvUrl && (
-            <p className="mt-8">
-              <SmartLink href={`${profile.cvUrl}?dl=`} className="btn btn-ghost">Download CV (PDF)</SmartLink>
-            </p>
-          )}
+          <p className="mt-8 flex flex-wrap gap-3">
+            <SmartLink href={booking.href} className="btn btn-copper">{booking.label}</SmartLink>
+            {settings.appointments?.profileUrl && (
+              <SmartLink href={settings.appointments.profileUrl} className="btn btn-ghost">HSS profile</SmartLink>
+            )}
+            {profile.cvUrl && <SmartLink href={`${profile.cvUrl}?dl=`} className="btn btn-ghost">Download CV (PDF)</SmartLink>}
+          </p>
         </aside>
         <div className="md:col-span-8">
           <RichText value={profile.bio} className="prose-editorial" />
